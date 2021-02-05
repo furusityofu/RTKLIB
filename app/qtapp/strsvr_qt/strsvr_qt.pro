@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets serialport
 
-include(../../RTKLib.pri)
+include(../RTKLib.pri)
 
 lessThan(QT_MAJOR_VERSION, 5) {
     LIBS += -lqextserialport-1.2

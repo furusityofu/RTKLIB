@@ -11,7 +11,7 @@ greaterThan(QT_MAJOR_VERSION, 4) {
     DEFINES += QT5
 }
 
-include(../../RTKLib.pri)
+include(../RTKLib.pri)
 
 TARGET = rtkpost_qt
 TEMPLATE = app

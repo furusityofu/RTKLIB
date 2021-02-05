@@ -10,7 +10,7 @@ greaterThan(QT_MAJOR_VERSION, 4) {
     QT += widgets 
 }
 
-include(../../RTKLib.pri)
+include(../RTKLib.pri)
 
 TARGET = rtkconv_qt
 TEMPLATE = app

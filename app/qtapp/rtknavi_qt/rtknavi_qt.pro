@@ -16,7 +16,7 @@ lessThan(QT_MAJOR_VERSION, 5) {
     DEFINES += QEXTSERIALPORT
 }
 
-include(../../RTKLib.pri)
+include(../RTKLib.pri)
 
 TARGET = rtknavi_qt
 TEMPLATE = app
